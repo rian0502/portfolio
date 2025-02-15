@@ -88,7 +88,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="card p-3">
-                        <table class="table" id="projectTable">
+                        <table class="table" width="100%" id="projectTable">
                             <thead>
                                 <tr>
                                     <th class="text-center align-middle" scope="col">No</th>

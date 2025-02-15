@@ -7,7 +7,7 @@
                 <p>Tambun-Selatan<br>Bekasi Kabupaten, 17510</p>
             </div>
             <div class="col-md-4 mb-5 mb-lg-0">
-                <h4 class="text-uppercase">Around the Web</h4>
+                <h4 class="text-uppercase">Connect with Me</h4>
                 <ul class="list-inline">
                     <li class="list-inline-item"><a
                             class="btn btn-outline-light text-center btn-social rounded-circle" role="button"
@@ -24,8 +24,8 @@
                 </ul>
             </div>
             <div class="col-md-4">
-                <h4 class="text-uppercase mb-4">About Freelancer</h4>
-                <p class="lead mb-0"><span>Freelance is a free to use, open source Bootstrap theme.&nbsp;</span></p>
+                <h4 class="text-uppercase mb-4">Profesionalisme & Dedikasi</h4>
+                <p class="lead mb-0"><span>Menggabungkan kreativitas dan teknologi untuk menciptakan solusi digital yang bermanfaat. Mari berkolaborasi!</span></p>
             </div>
         </div>
     </div>

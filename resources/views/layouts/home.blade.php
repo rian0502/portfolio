@@ -38,7 +38,8 @@
                 "paging": true,
                 "searching": true,
                 "ordering": true,
-                "info": true
+                "info": true,
+                "responsive": true,
             });
         });
     </script>
