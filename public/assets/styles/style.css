@@ -2,3 +2,25 @@
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
 }
+.custom-card {
+    background: linear-gradient(135deg, #198754, #20c997);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.custom-card h4 {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.bg-header {
+    background: linear-gradient(135deg, #14532d, #198754, #20c997, #6ee7b7);
+}

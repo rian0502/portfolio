@@ -11,6 +11,7 @@
     <link rel="shortcut icon" href="/assets//img/portfolio/favicon.ico">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="https://cdn.datatables.net/2.2.2/css/dataTables.dataTables.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/responsive/3.0.4/css/responsive.dataTables.min.css" />
     <link rel="stylesheet" href="/assets/styles/style.css">
 </head>
 
@@ -32,6 +33,7 @@
     <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="/assets/js/freelancer.js"></script>
     <script src="https://cdn.datatables.net/2.2.2/js/dataTables.js"></script>
+    <script src="https://cdn.datatables.net/responsive/3.0.4/js/dataTables.responsive.min.js"></script>
     <script>
         $(document).ready(function() {
             $('#projectTable').DataTable({

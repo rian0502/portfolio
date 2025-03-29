@@ -21,6 +21,7 @@ class DatabaseSeeder extends Seeder
         $this->call([
             ProjectSeed::class,
             CertificationSeed::class,
+            SkillSeed::class,
         ]);
         
     }

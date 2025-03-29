@@ -1,6 +1,6 @@
 @extends('layouts.home')
 @section('content')
-    <header class="text-center text-white bg-success masthead">
+    <header class="text-center text-white bg-header masthead">
         <div class="container">
             <div class="row d-flex align-items-center">
                 <div class="col-md-6 p-3">
@@ -21,7 +21,7 @@
             <hr class="star-dark mb-5">
             <div class="row">
                 @foreach ($certifications as $item)
-                    <div class="col-md-6 col-lg-4">
+                    <div class="col-md-4 col-lg-3">
                         <a class="d-block mx-auto portfolio-item" href="#portfolio-modal-{{ $loop->iteration }}"
                             data-bs-toggle="modal">
                             <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
@@ -113,6 +113,23 @@
                         </table>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+    <section id="skill"> 
+        <div class="container">
+            <h2 class="text-uppercase text-center text-secondary mb-4">Skill</h2>
+            <hr class="star-dark mb-4">
+            <div class="row justify-content-center">
+                @foreach ($skills as $item)
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                        <div class="card custom-card">
+                            <div class="card-body d-flex align-items-center justify-content-center">
+                                <h4 class="text-center">{{ $item->name }}</h4>
+                            </div>
+                        </div>
+                    </div>
+                @endforeach
             </div>
         </div>
     </section>
