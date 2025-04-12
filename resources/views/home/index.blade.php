@@ -9,10 +9,10 @@
                     <h2 class="font-weight-light text-start">Software Developer</h2>
                 </div>
                 <div class="col-md-6">
-                    <img class="img-fluid d-block mx-auto mb-5" src="assets/img/profile.png">
+                    <img class="img-fluid d-block mx-auto mb-5 rounded-circle" style="width:20rem;"
+                        src="assets/img/avatar.jpg">
                 </div>
             </div>
-
         </div>
     </header>
     <section id="portfolio" class="portfolio">
@@ -81,6 +81,23 @@
             </div>
         </div>
     </section>
+    <section id="skill" class="mb-0">
+        <div class="container">
+            <h2 class="text-uppercase text-center text-secondary mb-0">Skill</h2>
+            <hr class="star-dark mb-5">
+            <div class="row justify-content-center">
+                @foreach ($skills as $item)
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                        <div class="card custom-card">
+                            <div class="card-body d-flex align-items-center justify-content-center">
+                                <h4 class="text-center">{{ $item->name }}</h4>
+                            </div>
+                        </div>
+                    </div>
+                @endforeach
+            </div>
+        </div>
+    </section>
     <section id="project">
         <div class="container">
             <h2 class="text-uppercase text-center text-secondary mb-0">Project</h2>
@@ -113,23 +130,6 @@
                         </table>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-    <section id="skill"> 
-        <div class="container">
-            <h2 class="text-uppercase text-center text-secondary mb-4">Skill</h2>
-            <hr class="star-dark mb-4">
-            <div class="row justify-content-center">
-                @foreach ($skills as $item)
-                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
-                        <div class="card custom-card">
-                            <div class="card-body d-flex align-items-center justify-content-center">
-                                <h4 class="text-center">{{ $item->name }}</h4>
-                            </div>
-                        </div>
-                    </div>
-                @endforeach
             </div>
         </div>
     </section>
